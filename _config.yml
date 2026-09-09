@@ -1,0 +1,55 @@
+title: "Waidwerker"
+tagline: "Feldnotizen zu Jagd- und Outdoor-Ausrüstung"
+description: "Praxisnahe Tests von Optik, Munition, Kleidung und Zubehör im Feld erprobt"
+author:
+  name: "Waidwerker"
+  email: "waidwerker@icloud.com"
+instagram: "Der_Waidwerker"
+geartester_profile: "https://www.geartester.de/u/waidwerker"
+
+# Custom domain: https://derwaidwerker.de
+url: "https://derwaidwerker.de"
+baseurl: ""
+
+lang: de
+locale: de_DE
+timezone: Europe/Oslo
+
+permalink: /berichte/:year/:month/:day/:title/
+
+collections:
+  posts_en:
+    output: true
+    permalink: /en/reviews/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      lang: de
+  - scope:
+      path: ""
+      type: "posts_en"
+    values:
+      lang: en
+      layout: post
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+show_excerpts: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - MEDIA-CHECKLIST.md
+  - README.md
+  - vendor
+  - node_modules

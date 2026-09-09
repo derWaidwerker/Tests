@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap">
+    <div class="site-header__row">
+      <a class="wordmark" href="{{ home_path | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ home_path | relative_url }}">{{ t.nav_reviews }}</a>
+        <a href="https://www.instagram.com/{{ site.instagram }}">Instagram</a>
+        <a href="{{ site.geartester_profile }}">Geartester</a>
+        <a class="lang-switch" href="{{ switch_href | relative_url }}" hreflang="{{ other_lang }}">{{ t.switch_label }}</a>
+      </nav>
+    </div>
+    {% if site.tagline %}<p class="site-tagline">{{ site.tagline }}</p>{% endif %}
+  </div>
+</header>

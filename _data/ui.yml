@@ -1,0 +1,17 @@
+site_paths:
+  de: "/"
+  en: "/en/"
+
+strings:
+  de:
+    nav_reviews: "Berichte"
+    skip_link: "Zum Inhalt springen"
+    switch_label: "English"
+    empty_note: "Noch keine Berichte veröffentlicht."
+    date_format: "%d.%m.%Y"
+  en:
+    nav_reviews: "Reviews"
+    skip_link: "Skip to content"
+    switch_label: "Deutsch"
+    empty_note: "No reviews published yet."
+    date_format: "%b %-d, %Y"

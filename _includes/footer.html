@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div>© {{ 'now' | date: "%Y" }} {{ site.author.name }}</div>
+    <div class="site-footer__links">
+      <a href="https://www.instagram.com/{{ site.instagram }}">Instagram</a>
+      <a href="{{ site.geartester_profile }}">Geartester.de</a>
+      <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      <a class="footer-legal" href="{{ '/impressum/' | relative_url }}">Impressum</a>
+      <a class="footer-legal" href="{{ '/datenschutz/' | relative_url }}">Datenschutz</a>
+    </div>
+  </div>
+</footer>

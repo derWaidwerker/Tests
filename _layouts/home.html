@@ -1,0 +1,36 @@
+---
+layout: default
+---
+{% assign lang = page.lang | default: site.lang %}
+{% assign t = site.data.ui.strings[lang] %}
+{% assign posts_list = site.posts %}
+{% if lang == "en" %}{% assign posts_list = site.posts_en | sort: "date" | reverse %}{% endif %}
+
+<section class="hero">
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description | default: site.description }}</p>
+  </div>
+</section>
+
+<section class="entries">
+  <div class="wrap">
+    {% if posts_list.size > 0 %}
+      {% for post in posts_list %}
+        <a class="entry" href="{{ post.url | relative_url }}">
+          {% if post.image %}<img class="entry__thumb" src="{{ post.image }}" alt="">{% endif %}
+          <div class="entry__body">
+            <div class="entry__meta">
+              <span class="entry__date">{{ post.date | date: t.date_format }}</span>
+              {% if post.tags.size > 0 %}<span class="entry__tag">{{ post.tags | first }}</span>{% endif %}
+            </div>
+            <h2 class="entry__title">{{ post.title }}</h2>
+            <p class="entry__excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+          </div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <p class="empty-note">{{ t.empty_note }}</p>
+    {% endif %}
+  </div>
+</section>

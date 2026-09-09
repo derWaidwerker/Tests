@@ -1,0 +1,27 @@
+{% assign lang = page.lang | default: site.lang %}
+{% assign other_lang = "en" %}
+{% if lang == "en" %}{% assign other_lang = "de" %}{% endif %}
+{% assign t = site.data.ui.strings[lang] %}
+{% assign home_path = site.data.ui.site_paths[lang] %}
+{% assign other_home_path = site.data.ui.site_paths[other_lang] %}
+{% assign switch_href = page.translation | default: other_home_path %}
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+  {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ t.skip_link }}</a>
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script data-goatcounter="https://waidwerker.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

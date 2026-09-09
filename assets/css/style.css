@@ -1,0 +1,482 @@
+/* ===========================================================
+   Waidwerker — Feldjournal-Design
+   =========================================================== */
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("/assets/fonts/fraunces-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces";
+  src: url("/assets/fonts/fraunces-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/assets/fonts/work-sans-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/assets/fonts/work-sans-500.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/assets/fonts/work-sans-600.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --paper: #EDE6D6;
+  --paper-raised: #F4EFE4;
+  --ink: #2B2A24;
+  --ink-muted: #5C5847;
+  --forest: #2F4538;
+  --moss: #6B7A5E;
+  --rust: #A8431E;
+  --hairline: #C9BEA3;
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-body: "Work Sans", -apple-system, "Segoe UI", sans-serif;
+
+  --measure: 68ch;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--forest);
+  text-decoration-color: var(--hairline);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--rust);
+  text-decoration-color: var(--rust);
+}
+
+/* Skip link for keyboard users */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  background: var(--paper-raised);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--ink);
+  z-index: 10;
+}
+
+:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 2px;
+}
+
+/* ---------- Layout shell ---------- */
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  border-bottom: 1px solid var(--hairline);
+  padding: 2.5rem 0 1.5rem;
+}
+
+.site-header__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: var(--forest);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+}
+
+.wordmark:hover {
+  color: var(--forest);
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.site-nav a {
+  color: var(--ink-muted);
+  text-decoration: none;
+}
+
+.site-nav a:hover {
+  color: var(--rust);
+}
+
+.lang-switch {
+  border: 1px solid var(--hairline);
+  padding: 0.15rem 0.6rem;
+  border-radius: 2px;
+  color: var(--forest) !important;
+}
+
+.lang-switch:hover {
+  border-color: var(--rust);
+  color: var(--rust) !important;
+}
+
+.site-tagline {
+  margin: 0.6rem 0 0;
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+  max-width: 40ch;
+}
+
+/* ---------- Hero (home only) ---------- */
+
+.hero {
+  padding: 3rem 0 2.5rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  line-height: 1.15;
+  margin: 0 0 0.9rem;
+  max-width: 18ch;
+}
+
+.hero p {
+  color: var(--ink-muted);
+  max-width: 52ch;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+/* ---------- Post list (home) ---------- */
+
+.entries {
+  padding: 1rem 0 3rem;
+}
+
+.entry {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--hairline);
+  text-decoration: none;
+  color: inherit;
+}
+
+.entry__thumb {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border: 1px solid var(--hairline);
+  flex-shrink: 0;
+}
+
+.entry__body {
+  min-width: 0;
+}
+
+.entry:first-child {
+  padding-top: 2rem;
+}
+
+.entry:hover .entry__title {
+  color: var(--rust);
+}
+
+.entry__meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin-bottom: 0.5rem;
+}
+
+.entry__date {
+  font-variant-numeric: tabular-nums;
+}
+
+.entry__tag {
+  border: 1px solid var(--hairline);
+  padding: 0.1rem 0.55rem;
+  border-radius: 2px;
+  color: var(--forest);
+}
+
+.entry__title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+
+.entry__excerpt {
+  color: var(--ink-muted);
+  margin: 0;
+  max-width: var(--measure);
+}
+
+.empty-note {
+  color: var(--ink-muted);
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+/* ---------- Post page ---------- */
+
+.post-header {
+  padding: 2.5rem 0 2rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.post-header__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin-bottom: 0.75rem;
+}
+
+.post-header__meta .entry__tag {
+  margin-left: 0;
+}
+
+.post-header h1 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.75rem, 4.5vw, 2.5rem);
+  line-height: 1.2;
+  margin: 0;
+}
+
+.post-body {
+  padding: 2.5rem 0 1rem;
+  max-width: var(--measure);
+}
+
+.post-body h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 2.2rem 0 0.9rem;
+  color: var(--forest);
+}
+
+.post-body h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 1.8rem 0 0.7rem;
+}
+
+.post-body p {
+  margin: 0 0 1.1rem;
+}
+
+.post-body ul,
+.post-body ol {
+  padding-left: 1.3rem;
+  margin: 0 0 1.1rem;
+}
+
+.post-body li {
+  margin-bottom: 0.5rem;
+}
+
+.post-body img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem 0 0.4rem;
+  border: 1px solid var(--hairline);
+}
+
+.post-body img + em {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  font-style: normal;
+  margin-bottom: 1.4rem;
+}
+
+.post-body blockquote {
+  margin: 1.5rem 0;
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 3px solid var(--rust);
+  color: var(--ink-muted);
+}
+
+.post-body hr {
+  border: none;
+  border-top: 1px solid var(--hairline);
+  margin: 2rem 0;
+}
+
+/* Spec table styled like a field card */
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border: 1px solid var(--ink);
+  font-size: 0.95rem;
+}
+
+.post-body table th,
+.post-body table td {
+  text-align: left;
+  padding: 0.55rem 0.8rem;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.post-body table tr:last-child th,
+.post-body table tr:last-child td {
+  border-bottom: none;
+}
+
+.post-body table th {
+  font-family: var(--font-display);
+  font-weight: 600;
+  width: 45%;
+  background: var(--paper-raised);
+}
+
+/* Pro/Contra ledger style */
+.post-body ul.pro-list,
+.post-body ul.contra-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-body ul.pro-list li,
+.post-body ul.contra-list li {
+  padding-left: 1.4rem;
+  position: relative;
+}
+
+.post-body ul.pro-list li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  content: "+";
+  color: var(--moss);
+}
+
+.post-body ul.contra-list li::before {
+  position: absolute;
+  left: 0;
+  font-weight: 700;
+  content: "–";
+  color: var(--rust);
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--hairline);
+  padding: 2rem 0 3rem;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+}
+
+.site-footer a {
+  color: var(--ink-muted);
+}
+
+.site-footer a:hover {
+  color: var(--rust);
+}
+
+.site-footer__links {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.footer-legal {
+  font-size: 0.78rem;
+  opacity: 0.6;
+}
+
+/* ---------- Motion & accessibility ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  .wrap {
+    padding: 0 1.15rem;
+  }
+  .site-header {
+    padding: 2rem 0 1.25rem;
+  }
+  .entry__thumb {
+    width: 96px;
+    height: 72px;
+  }
+}
