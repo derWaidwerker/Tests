@@ -2,6 +2,8 @@
 title: "After the Flood Comes the Plague: Nitecore EMR25 Mosquito-Repelling Power Bank Review"
 date: 2025-08-17
 tags: [Mosquito Repellent, Nitecore, Review]
+category: "Mosquito Repellent"
+brand: "Nitecore"
 excerpt: "Review: the Nitecore EMR25, a mosquito-repelling device with a 12,000 mAh battery, OLED display, and power bank function."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7073_a07b63.jpeg&width=1920"
 translation: "/berichte/2025/08/17/nach-der-flut-kommt-die-plage-nitecore-emr25/"

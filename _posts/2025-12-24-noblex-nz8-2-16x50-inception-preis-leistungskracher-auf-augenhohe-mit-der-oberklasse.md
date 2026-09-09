@@ -3,6 +3,8 @@ layout: post
 title: "Noblex NZ8 2-16x50 inception – Preis/Leistungskracher auf Augenhöhe mit der Oberklasse"
 date: 2025-12-24
 tags: [Zielfernrohr, Noblex, Test]
+category: "Zielfernrohr"
+brand: "Noblex"
 excerpt: "Testbericht: Das Noblex NZ8 2-16x50 inception, ein Allround-Zielfernrohr mit 34-mm-Mittelrohr, verstärktem Objektivgehäuse und starkem Preis-Leistungs-Verhältnis."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7956_7e3d3f.jpeg&width=1920"
 translation: "/en/reviews/2025/12/24/noblex-nz8-2-16x50-inception-preis-leistungskracher-auf-augenhohe-mit-der-oberklasse/"

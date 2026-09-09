@@ -2,6 +2,8 @@
 title: "NikkoStirling Diamond FFP 34mm 5-30x56 Review"
 date: 2026-08-20
 tags: [Riflescope, NikkoStirling, Review]
+category: "Riflescope"
+brand: "NikkoStirling"
 excerpt: "Review: the NikkoStirling Diamond FFP 34mm 5-30x56, a 34mm FFP riflescope with Zero Stop for under 800 euros."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0965_fb4318.jpeg&width=1920"
 translation: "/berichte/2026/08/20/nikkostirling-diamond-ffp-34mm-5-30x56-im-test/"

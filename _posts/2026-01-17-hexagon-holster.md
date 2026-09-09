@@ -3,6 +3,8 @@ layout: post
 title: "Hexagon Holster – Praxistest des Glock Pancake Cut Holsters im jagdlichen Einsatz"
 date: 2026-01-17
 tags: [Holster, Hexagon, Test]
+category: "Holster"
+brand: "Hexagon"
 excerpt: "Testbericht: Das Hexagon Pancake Cut Holster für Glock im jagdlichen Praxiseinsatz, handgefertigt in der Steiermark mit riesigem Konfigurationsspielraum."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260102__DLS6732_d59192.jpg&width=1920"
 translation: "/en/reviews/2026/01/17/hexagon-holster/"

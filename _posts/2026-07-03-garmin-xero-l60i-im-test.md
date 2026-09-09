@@ -3,6 +3,8 @@ layout: post
 title: "Garmin Xero L60i im Test"
 date: 2026-07-03
 tags: [Entfernungsmesser, Garmin, Test]
+category: "Entfernungsmesser"
+brand: "Garmin"
 excerpt: "Testbericht: Der Garmin Xero L60i im Praxischeck, ein Premium-Laserentfernungsmesser mit GPS-Kartennavigation und Applied Ballistics Solver."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0008_a5d7a2.jpeg&width=1920"
 translation: "/en/reviews/2026/07/03/garmin-xero-l60i-im-test/"

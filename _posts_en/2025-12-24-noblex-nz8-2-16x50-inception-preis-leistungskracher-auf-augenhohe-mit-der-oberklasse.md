@@ -2,6 +2,8 @@
 title: "Noblex NZ8 2-16x50 Inception Review: Value for Money on Par With the Premium Class"
 date: 2025-12-24
 tags: [Riflescope, Noblex, Review]
+category: "Riflescope"
+brand: "Noblex"
 excerpt: "Review: the Noblex NZ8 2-16x50 inception, an all-round riflescope with a 34mm tube, a reinforced objective housing, and strong value for money."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7956_7e3d3f.jpeg&width=1920"
 translation: "/berichte/2025/12/24/noblex-nz8-2-16x50-inception-preis-leistungskracher-auf-augenhohe-mit-der-oberklasse/"

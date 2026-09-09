@@ -2,6 +2,8 @@
 title: "YETI Panga 75 Review"
 date: 2026-08-21
 tags: [Hunting Bag, YETI, Review]
+category: "Hunting Bag"
+brand: "YETI"
 excerpt: "Review: the YETI Panga 75 put through months of hunting and expedition use, a waterproof bag built for life."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0474_cab80b.jpeg&width=1920"
 translation: "/berichte/2026/08/21/yeti-panga-75-im-test/"

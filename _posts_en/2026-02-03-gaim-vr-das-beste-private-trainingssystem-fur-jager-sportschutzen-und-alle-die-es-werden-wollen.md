@@ -2,6 +2,8 @@
 title: "GAIM VR: The Best Private Training System for Hunters, Sport Shooters, and Anyone Who Wants to Become One?"
 date: 2026-02-03
 tags: [Shooting Training, GAIM, Review]
+category: "Shooting Training"
+brand: "GAIM"
 excerpt: "Review: GAIM VR in practice, a virtual reality simulator for hunting and shooting sports with realistic scenarios and a ballistics engine."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260104__DLS6736_4613a0.jpg&width=1920"
 translation: "/berichte/2026/02/03/gaim-vr-das-beste-private-trainingssystem-fur-jager-sportschutzen-und-alle-die-es-werden-wollen/"

@@ -208,6 +208,62 @@ a:hover {
   padding: 1rem 0 3rem;
 }
 
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 1.25rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--hairline);
+}
+
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.filter-field label {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+.filter-field select {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 0.4rem 0.6rem;
+  min-width: 180px;
+}
+
+.filter-field select:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 1px;
+}
+
+.filter-reset {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  background: none;
+  border: 1px solid var(--hairline);
+  border-radius: 2px;
+  padding: 0.45rem 0.7rem;
+  cursor: pointer;
+}
+
+.filter-reset:hover {
+  color: var(--rust);
+  border-color: var(--rust);
+}
+
+.entry[hidden] {
+  display: none;
+}
+
 .entry {
   display: flex;
   gap: 1.25rem;
@@ -228,10 +284,6 @@ a:hover {
 
 .entry__body {
   min-width: 0;
-}
-
-.entry:first-child {
-  padding-top: 2rem;
 }
 
 .entry:hover .entry__title {
@@ -478,5 +530,13 @@ a:hover {
   .entry__thumb {
     width: 96px;
     height: 72px;
+  }
+  .filter-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.9rem;
+  }
+  .filter-field select {
+    width: 100%;
   }
 }

@@ -3,6 +3,8 @@ layout: post
 title: "GAIM VR – Das beste private Trainingssystem für Jäger, Sportschützen und alle, die es werden wollen?"
 date: 2026-02-03
 tags: [Schießtraining, GAIM, Test]
+category: "Schießtraining"
+brand: "GAIM"
 excerpt: "Testbericht: GAIM VR im Praxischeck, ein Virtual-Reality-Simulator für Jagd und Schießsport mit realistischen Szenarien und ballistischer Engine."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260104__DLS6736_4613a0.jpg&width=1920"
 translation: "/en/reviews/2026/02/03/gaim-vr-das-beste-private-trainingssystem-fur-jager-sportschutzen-und-alle-die-es-werden-wollen/"

@@ -3,6 +3,8 @@ layout: post
 title: "YETI Panga 75 im Test"
 date: 2026-08-21
 tags: [Jagdtasche, YETI, Test]
+category: "Jagdtasche"
+brand: "YETI"
 excerpt: "Testbericht: Die YETI Panga 75 im Praxischeck, eine wasserdichte Jagd- und Expeditionstasche fürs Leben."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0474_cab80b.jpeg&width=1920"
 translation: "/en/reviews/2026/08/21/yeti-panga-75-im-test/"

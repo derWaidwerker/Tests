@@ -2,6 +2,8 @@
 title: "Conotech Avata 650 LIIR: Thermal Imaging Clip-On With Laser Rangefinder Review"
 date: 2025-10-16
 tags: [Thermal Clip-On, Conotech, Review]
+category: "Thermal Clip-On"
+brand: "Conotech"
 excerpt: "Review: the Conotech Avata 650 LIIR, a thermal imaging clip-on with a built-in, parallax-free laser rangefinder."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20251002__DLS6700_0a0ab2.jpg&width=1920"
 translation: "/berichte/2025/10/16/conotech-avata-650-liir-warmebildvorsatzgerat-mit-laserentfernungsmesser-im-test/"

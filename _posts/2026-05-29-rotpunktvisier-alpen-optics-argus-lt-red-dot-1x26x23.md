@@ -3,6 +3,8 @@ layout: post
 title: "Rotpunktvisier ALPEN OPTICS Argus LT Red Dot 1x26x23"
 date: 2026-05-29
 tags: [Rotpunktvisier, Alpen Optics, Test]
+category: "Rotpunktvisier"
+brand: "Alpen Optics"
 excerpt: "Testbericht: Das ALPEN OPTICS Argus LT Red Dot 1x26x23, ein offenes Rotpunktvisier mit RMR-Footprint und DynamicDot-Technologie für die Kurzwaffe."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FBF0FA4FE_BA22_4C8B_AFE3_20717869B5C7_1_102_o_0e436c.jpeg&width=1920"
 translation: "/en/reviews/2026/05/29/rotpunktvisier-alpen-optics-argus-lt-red-dot-1x26x23/"

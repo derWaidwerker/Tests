@@ -2,6 +2,8 @@
 title: "Bergara B14² CIMA CF Review With Leader SDK Suppressor and Leader MJG-SX Ammunition"
 date: 2025-12-25
 tags: [Rifle, Bergara, Review]
+category: "Rifle"
+brand: "Bergara"
 excerpt: "Review: the Bergara B14² CIMA CF in .308 WIN, an ultralight carbon bolt-action rifle, paired with a Leader SDK suppressor and lead-free MJG-SX ammunition."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_8035_f1ecbc.jpeg&width=1920"
 translation: "/berichte/2025/12/25/bergara-b14-cima-cf-im-test-mit-leader-sdk-schalldampfer-und-leader-mjg-sx-munition/"

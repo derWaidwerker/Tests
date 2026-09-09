@@ -3,6 +3,8 @@ layout: post
 title: "Nach der Flut kommt die Plage – Mückenabwehrende Powerbank Nitecore EMR25 im Test"
 date: 2025-08-17
 tags: [Mückenschutz, Nitecore, Test]
+category: "Mückenschutz"
+brand: "Nitecore"
 excerpt: "Testbericht: Die Nitecore EMR25 im Praxischeck, ein mückenabwehrendes Gerät mit 12.000-mAh-Akku, OLED-Display und Powerbank-Funktion."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7073_a07b63.jpeg&width=1920"
 translation: "/en/reviews/2025/08/17/nach-der-flut-kommt-die-plage-nitecore-emr25/"

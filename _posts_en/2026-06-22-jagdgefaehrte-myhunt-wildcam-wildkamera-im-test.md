@@ -2,6 +2,8 @@
 title: "Jagdgefährte / MyHunt WildCam Trail Camera Review"
 date: 2026-06-22
 tags: [Trail Camera, MyHunt, Review]
+category: "Trail Camera"
+brand: "MyHunt"
 excerpt: "Review: the Jagdgefährte / MyHunt WildCam, a 4G LTE trail camera with app integration at the lower end of the price range."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_9425_cf1699.jpeg&width=1920"
 translation: "/berichte/2026/06/22/jagdgefaehrte-myhunt-wildcam-wildkamera-im-test/"

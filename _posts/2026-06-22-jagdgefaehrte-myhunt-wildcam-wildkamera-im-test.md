@@ -3,6 +3,8 @@ layout: post
 title: "Jagdgefährte / MyHunt WildCam Wildkamera im Test"
 date: 2026-06-22
 tags: [Wildkamera, MyHunt, Test]
+category: "Wildkamera"
+brand: "MyHunt"
 excerpt: "Testbericht: Die Jagdgefährte / MyHunt WildCam im Praxischeck, eine 4G-LTE-Wildkamera mit App-Anbindung im unteren Preissegment."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_9425_cf1699.jpeg&width=1920"
 translation: "/en/reviews/2026/06/22/jagdgefaehrte-myhunt-wildcam-wildkamera-im-test/"

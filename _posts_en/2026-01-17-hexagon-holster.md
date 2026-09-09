@@ -2,6 +2,8 @@
 title: "Hexagon Holster: Field Test of the Glock Pancake Cut Holster in Hunting Use"
 date: 2026-01-17
 tags: [Holster, Hexagon, Review]
+category: "Holster"
+brand: "Hexagon"
 excerpt: "Review: the Hexagon Pancake Cut holster for Glock in real hunting use, handmade in Styria with an enormous range of configuration options."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260102__DLS6732_d59192.jpg&width=1920"
 translation: "/berichte/2026/01/17/hexagon-holster/"

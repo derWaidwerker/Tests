@@ -3,6 +3,8 @@ layout: post
 title: "YETI Tundra 45 im Test – Kühlbox fürs Leben"
 date: 2025-11-24
 tags: [Kühlbox, YETI, Test]
+category: "Kühlbox"
+brand: "YETI"
 excerpt: "Testbericht: Die YETI Tundra 45 im Praxischeck, eine legendäre Outdoor-Kühlbox mit langer Kühlleistung und kompromissloser Robustheit."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7635_db66b4.jpeg&width=1920"
 translation: "/en/reviews/2025/11/24/yeti-tundra-45-im-test-kuhlbox-furs-leben/"

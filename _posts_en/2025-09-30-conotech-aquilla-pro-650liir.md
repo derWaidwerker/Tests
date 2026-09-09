@@ -2,6 +2,8 @@
 title: "Conotech Aquilla Pro 650LIIR: The Top-of-the-Range Model From the Inventors of the LIIR"
 date: 2025-09-30
 tags: [Thermal imaging, Conotech, Laser rangefinder, Review]
+category: "Thermal Camera"
+brand: "Conotech"
 excerpt: "Review: the Conotech Aquilla Pro 650 LIIR in the field, a high performance thermal camera with a built in laser rangefinder."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7077_aea363.jpeg&width=1920"
 translation: "/berichte/2025/09/30/conotech-aquilla-pro-650liir/"

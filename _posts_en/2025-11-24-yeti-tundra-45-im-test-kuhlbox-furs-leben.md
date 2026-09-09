@@ -2,6 +2,8 @@
 title: "YETI Tundra 45 Review: A Cooler for Life"
 date: 2025-11-24
 tags: [Cooler, YETI, Review]
+category: "Cooler"
+brand: "YETI"
 excerpt: "Review: the YETI Tundra 45, a legendary outdoor cooler with long-lasting ice retention and uncompromising ruggedness."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7635_db66b4.jpeg&width=1920"
 translation: "/berichte/2025/11/24/yeti-tundra-45-im-test-kuhlbox-furs-leben/"

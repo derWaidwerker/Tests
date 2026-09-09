@@ -3,6 +3,8 @@ layout: post
 title: "Stoeger M3000 Peregrine CAMO Max7: Praxistest der günstigen Arbeitsflinte"
 date: 2026-04-22
 tags: [Flinte, Stoeger, Test]
+category: "Flinte"
+brand: "Stoeger"
 excerpt: "Praxistest: Die Stoeger M3000 Peregrine CAMO Max7, eine günstige halbautomatische Rückstoßlader-Flinte im 12/76-Kaliber."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260407_IMG_9026_fc132a.jpg&width=1920"
 translation: "/en/reviews/2026/04/22/stoeger-m3000-peregrine-camo-max7-praxistest-der-gunstigen-arbeitsflinte/"

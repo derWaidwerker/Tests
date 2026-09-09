@@ -5,6 +5,8 @@ layout: default
 {% assign t = site.data.ui.strings[lang] %}
 {% assign posts_list = site.posts %}
 {% if lang == "en" %}{% assign posts_list = site.posts_en | sort: "date" | reverse %}{% endif %}
+{% assign categories = posts_list | map: "category" | uniq | sort %}
+{% assign brands = posts_list | map: "brand" | uniq | sort %}
 
 <section class="hero">
   <div class="wrap">
@@ -16,21 +18,73 @@ layout: default
 <section class="entries">
   <div class="wrap">
     {% if posts_list.size > 0 %}
+      <div class="filter-bar" id="filter-bar">
+        <div class="filter-field">
+          <label for="filter-category">{{ t.filter_category_label }}</label>
+          <select id="filter-category">
+            <option value="">{{ t.filter_category_all }}</option>
+            {% for c in categories %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+          </select>
+        </div>
+        <div class="filter-field">
+          <label for="filter-brand">{{ t.filter_brand_label }}</label>
+          <select id="filter-brand">
+            <option value="">{{ t.filter_brand_all }}</option>
+            {% for b in brands %}<option value="{{ b }}">{{ b }}</option>{% endfor %}
+          </select>
+        </div>
+        <button type="button" id="filter-reset" class="filter-reset" hidden>{{ t.filter_reset }}</button>
+      </div>
+
       {% for post in posts_list %}
-        <a class="entry" href="{{ post.url | relative_url }}">
+        <a class="entry" href="{{ post.url | relative_url }}" data-category="{{ post.category }}" data-brand="{{ post.brand }}">
           {% if post.image %}<img class="entry__thumb" src="{{ post.image }}" alt="">{% endif %}
           <div class="entry__body">
             <div class="entry__meta">
               <span class="entry__date">{{ post.date | date: t.date_format }}</span>
-              {% if post.tags.size > 0 %}<span class="entry__tag">{{ post.tags | first }}</span>{% endif %}
+              {% if post.category %}<span class="entry__tag">{{ post.category }}</span>{% endif %}
             </div>
             <h2 class="entry__title">{{ post.title }}</h2>
             <p class="entry__excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
           </div>
         </a>
       {% endfor %}
+      <p class="empty-note" id="filter-empty" hidden>{{ t.filter_no_results }}</p>
     {% else %}
       <p class="empty-note">{{ t.empty_note }}</p>
     {% endif %}
   </div>
 </section>
+
+{% if posts_list.size > 0 %}
+<script>
+(function () {
+  var categorySelect = document.getElementById('filter-category');
+  var brandSelect = document.getElementById('filter-brand');
+  var resetBtn = document.getElementById('filter-reset');
+  var emptyNote = document.getElementById('filter-empty');
+  var entries = Array.prototype.slice.call(document.querySelectorAll('.entry'));
+
+  function applyFilters() {
+    var cat = categorySelect.value;
+    var brand = brandSelect.value;
+    var visibleCount = 0;
+    entries.forEach(function (entry) {
+      var matches = (!cat || entry.dataset.category === cat) && (!brand || entry.dataset.brand === brand);
+      entry.hidden = !matches;
+      if (matches) visibleCount++;
+    });
+    emptyNote.hidden = visibleCount > 0;
+    resetBtn.hidden = !cat && !brand;
+  }
+
+  categorySelect.addEventListener('change', applyFilters);
+  brandSelect.addEventListener('change', applyFilters);
+  resetBtn.addEventListener('click', function () {
+    categorySelect.value = '';
+    brandSelect.value = '';
+    applyFilters();
+  });
+})();
+</script>
+{% endif %}

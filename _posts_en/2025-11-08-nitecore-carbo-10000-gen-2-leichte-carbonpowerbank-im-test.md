@@ -2,6 +2,8 @@
 title: "Nitecore Carbo 10000 Gen 2: Lightweight Carbon Power Bank Review"
 date: 2025-11-08
 tags: [Power Bank, Nitecore, Review]
+category: "Power Bank"
+brand: "Nitecore"
 excerpt: "Review: the Nitecore Carbo 10000 Gen 2, an ultralight power bank with a carbon fiber shell and magnesium heat sinks."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7753_3283ed.jpeg&width=1920"
 translation: "/berichte/2025/11/08/nitecore-carbo-10000-gen-2-leichte-carbonpowerbank-im-test/"

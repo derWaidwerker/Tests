@@ -2,6 +2,8 @@
 title: "ALPEN OPTICS Argus LT Red Dot 1x20x18: First Impressions of the Closed-Emitter Model With Solar Cell"
 date: 2026-05-06
 tags: [Red Dot Sight, Alpen Optics, Review]
+category: "Red Dot Sight"
+brand: "Alpen Optics"
 excerpt: "First impressions: the ALPEN OPTICS Argus LT 1x20x18, a closed-emitter red dot with ACRO footprint, solar cell, and DynamicDot motion sensor."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260407_IMG_9033_ba7f8a.jpg&width=1920"
 translation: "/berichte/2026/05/06/alpen-optics-argus-lt-rotpunktvisier-1x20x18/"

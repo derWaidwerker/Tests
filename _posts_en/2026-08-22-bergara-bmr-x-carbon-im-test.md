@@ -2,6 +2,8 @@
 title: "Bergara BMR-X Carbon Review"
 date: 2026-08-22
 tags: [Rifle, Bergara, .22 LR, Review]
+category: "Rifle"
+brand: "Bergara"
 excerpt: "Review: the Bergara BMR-X Carbon in .22 LR, bringing the B14 series X-stock design down to rimfire."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0976_c6c14d.jpeg&width=1920"
 translation: "/berichte/2026/08/22/bergara-bmr-x-carbon-im-test/"

@@ -2,6 +2,8 @@
 title: "Garmin Xero L60i Review"
 date: 2026-07-03
 tags: [Rangefinder, Garmin, Review]
+category: "Rangefinder"
+brand: "Garmin"
 excerpt: "Review: the Garmin Xero L60i, a premium laser rangefinder with GPS map navigation and an Applied Ballistics solver."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0008_a5d7a2.jpeg&width=1920"
 translation: "/berichte/2026/07/03/garmin-xero-l60i-im-test/"

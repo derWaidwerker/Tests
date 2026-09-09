@@ -3,6 +3,8 @@ layout: post
 title: "NikkoStirling Diamond FFP 34mm 5-30x56 im Test"
 date: 2026-08-20
 tags: [Zielfernrohr, NikkoStirling, Test]
+category: "Zielfernrohr"
+brand: "NikkoStirling"
 excerpt: "Test: Das NikkoStirling Diamond FFP 34mm 5-30x56, ein 34mm-FFP-Zielfernrohr mit Zero Stop für unter 800 Euro."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0965_fb4318.jpeg&width=1920"
 translation: "/en/reviews/2026/08/20/nikkostirling-diamond-ffp-34mm-5-30x56-im-test/"

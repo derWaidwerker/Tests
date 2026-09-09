@@ -3,6 +3,8 @@ layout: post
 title: "Bergara BMR-X Carbon im Test"
 date: 2026-08-22
 tags: [Büchse, Bergara, .22lr, Repetierer]
+category: "Büchse"
+brand: "Bergara"
 excerpt: "Testbericht: Die Bergara BMR-X Carbon im Kaliber .22lr im Praxischeck, das X-Schaft-Konzept der B14-Serie im Kleinkaliber."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_0976_c6c14d.jpeg&width=1920"
 translation: "/en/reviews/2026/08/22/bergara-bmr-x-carbon-im-test/"

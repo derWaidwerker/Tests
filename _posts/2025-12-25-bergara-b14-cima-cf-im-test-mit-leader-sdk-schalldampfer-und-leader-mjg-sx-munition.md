@@ -3,6 +3,8 @@ layout: post
 title: "Bergara B14² CIMA CF im Test mit Leader SDK Schalldämpfer und Leader MJG-SX Munition"
 date: 2025-12-25
 tags: [Büchse, Bergara, Test]
+category: "Büchse"
+brand: "Bergara"
 excerpt: "Testbericht: Die Bergara B14² CIMA CF im Kaliber .308 WIN, eine ultraleichte Carbon-Repetierbüchse, kombiniert mit Leader-SDK-Schalldämpfer und bleifreier MJG-SX-Munition."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_8035_f1ecbc.jpeg&width=1920"
 translation: "/en/reviews/2025/12/25/bergara-b14-cima-cf-im-test-mit-leader-sdk-schalldampfer-und-leader-mjg-sx-munition/"

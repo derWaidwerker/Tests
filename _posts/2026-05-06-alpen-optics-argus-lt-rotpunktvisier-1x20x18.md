@@ -3,6 +3,8 @@ layout: post
 title: "ALPEN OPTICS Argus LT Rotpunktvisier 1x20x18 – Erster Eindruck des geschlossenen RedDot mit Solarzelle"
 date: 2026-05-06
 tags: [Rotpunktvisier, Alpen Optics, Test]
+category: "Rotpunktvisier"
+brand: "Alpen Optics"
 excerpt: "Erster Eindruck: Das ALPEN OPTICS Argus LT 1x20x18, ein geschlossenes Rotpunktvisier mit ACRO-Footprint, Solarzelle und DynamicDot-Bewegungssensor."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260407_IMG_9033_ba7f8a.jpg&width=1920"
 translation: "/en/reviews/2026/05/06/alpen-optics-argus-lt-rotpunktvisier-1x20x18/"

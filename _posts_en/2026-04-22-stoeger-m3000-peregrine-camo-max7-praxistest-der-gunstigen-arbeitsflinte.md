@@ -2,6 +2,8 @@
 title: "Stoeger M3000 Peregrine CAMO Max7: Field Test of the Budget Work Shotgun"
 date: 2026-04-22
 tags: [Shotgun, Stoeger, Review]
+category: "Shotgun"
+brand: "Stoeger"
 excerpt: "Field test: the Stoeger M3000 Peregrine CAMO Max7, an affordable semi-automatic inertia-driven shotgun in 12/76 gauge."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20260407_IMG_9026_fc132a.jpg&width=1920"
 translation: "/berichte/2026/04/22/stoeger-m3000-peregrine-camo-max7-praxistest-der-gunstigen-arbeitsflinte/"

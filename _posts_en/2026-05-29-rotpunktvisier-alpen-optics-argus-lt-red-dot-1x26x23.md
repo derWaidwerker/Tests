@@ -2,6 +2,8 @@
 title: "ALPEN OPTICS Argus LT Red Dot 1x26x23 Review"
 date: 2026-05-29
 tags: [Red Dot Sight, Alpen Optics, Review]
+category: "Red Dot Sight"
+brand: "Alpen Optics"
 excerpt: "Review: the ALPEN OPTICS Argus LT Red Dot 1x26x23, an open-emitter red dot with RMR footprint and DynamicDot technology for handguns."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FBF0FA4FE_BA22_4C8B_AFE3_20717869B5C7_1_102_o_0e436c.jpeg&width=1920"
 translation: "/berichte/2026/05/29/rotpunktvisier-alpen-optics-argus-lt-red-dot-1x26x23/"

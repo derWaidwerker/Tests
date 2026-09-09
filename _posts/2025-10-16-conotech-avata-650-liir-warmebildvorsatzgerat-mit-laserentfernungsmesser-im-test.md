@@ -3,6 +3,8 @@ layout: post
 title: "Conotech Avata 650 LIIR – Wärmebildvorsatzgerät mit Laserentfernungsmesser im Test"
 date: 2025-10-16
 tags: [Wärmebildvorsatzgerät, Conotech, Test]
+category: "Wärmebildvorsatzgerät"
+brand: "Conotech"
 excerpt: "Testbericht: Das Conotech Avata 650 LIIR im Praxischeck, ein Wärmebildvorsatzgerät mit integriertem, parallaxefreiem Laserentfernungsmesser."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2F20251002__DLS6700_0a0ab2.jpg&width=1920"
 translation: "/en/reviews/2025/10/16/conotech-avata-650-liir-warmebildvorsatzgerat-mit-laserentfernungsmesser-im-test/"

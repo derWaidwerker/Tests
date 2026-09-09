@@ -4,6 +4,8 @@ title: "Conotech Aquilla Pro 650LIIR – Das Top-of-the-Range Modell der Erfinde
 date: 2025-09-30
 categories: [waermebildkamera]
 tags: [Wärmebildkamera, Conotech, Laserentfernungsmesser, Test]
+category: "Wärmebildkamera"
+brand: "Conotech"
 excerpt: "Testbericht: Die Conotech Aquilla Pro 650 LIIR im Praxischeck – Hochleistungs-Wärmebildkamera mit integriertem Laserentfernungsmesser."
 image: "https://www.geartester.de/uploads/url?path=%2Fgeartester%2Farticles%2FIMG_7077_aea363.jpeg&width=1920"
 translation: "/en/reviews/2025/09/30/conotech-aquilla-pro-650liir/"
