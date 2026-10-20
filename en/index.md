@@ -10,5 +10,3 @@ translation: "/"
 permalink: /en/
 ---
 Here I collect my reviews of hunting and outdoor gear: riflescopes, thermal devices, rifles, shotguns, rangefinders, red dot sights and accessories. Gear is judged in actual hunting use, not just on paper.
-
-All reviews were first published in German on [Geartester.de](https://www.geartester.de/u/waidwerker). Sponsored content is marked at the top of each review.

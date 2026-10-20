@@ -3,6 +3,7 @@ layout: default
 title: "Impressum"
 lang: de
 noindex: true
+sitemap: false
 permalink: /impressum/
 ---
 

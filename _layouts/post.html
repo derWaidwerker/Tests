@@ -3,6 +3,30 @@ layout: default
 ---
 {% assign lang = page.lang | default: site.lang %}
 {% assign t = site.data.ui.strings[lang] %}
+
+{% comment %} Bilder: nur das erste sofort laden, alle weiteren erst beim Scrollen {% endcomment %}
+{% assign body = content | replace: '<img ', '<img loading="lazy" decoding="async" ' | replace_first: '<img loading="lazy" decoding="async" ', '<img fetchpriority="high" decoding="async" ' %}
+
+{% comment %} Weitere Berichte: zuerst gleiche Marke oder Kategorie, dann die neuesten {% endcomment %}
+{% assign pool = site.posts %}
+{% if lang == "en" %}{% assign pool = site.posts_en | sort: "date" | reverse %}{% endif %}
+{% assign related = "" | split: "" %}
+{% for p in pool %}
+  {% if p.url != page.url and related.size < 3 %}
+    {% if p.brand == page.brand or p.category == page.category %}
+      {% assign related = related | push: p %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+{% for p in pool %}
+  {% if p.url != page.url and related.size < 3 %}
+    {% assign related_urls = related | map: "url" %}
+    {% unless related_urls contains p.url %}
+      {% assign related = related | push: p %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
 <article>
   <header class="post-header">
     <div class="wrap">
@@ -14,14 +38,26 @@ layout: default
     </div>
   </header>
   <div class="post-body wrap">
-    {{ content }}
+    {{ body }}
   </div>
 </article>
 
+{% if related.size > 0 %}
+<aside class="related wrap">
+  <h2>{{ t.related_heading }}</h2>
+  <ul class="related__list">
+    {% for p in related %}
+    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> <span class="entry__date">{{ p.date | date: t.date_format }}</span></li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endif %}
+
+{% comment %} Das BlogPosting-Markup liefert jekyll-seo-tag selbst. Hier nur Review mit Bewertung, wenn "rating" im Front Matter steht. {% endcomment %}
+{% if page.rating %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  {% if page.rating %}
   "@type": "Review",
   "name": {{ page.title | jsonify }},
   "reviewRating": { "@type": "Rating", "ratingValue": {{ page.rating | jsonify }}, "bestRating": 5 },
@@ -31,12 +67,6 @@ layout: default
     "brand": { "@type": "Brand", "name": {{ page.brand | jsonify }} }{% endif %}{% if page.image %},
     "image": {{ page.image | jsonify }}{% endif %}
   },
-  {% else %}
-  "@type": "BlogPosting",
-  "headline": {{ page.title | jsonify }},
-  {% if page.brand %}"about": { "@type": "Brand", "name": {{ page.brand | jsonify }} },{% endif %}
-  {% endif %}
-  {% unless page.rating %}{% if page.image %}"image": {{ page.image | jsonify }},{% endif %}{% endunless %}
   "description": {{ page.excerpt | strip_html | strip_newlines | truncate: 200 | jsonify }},
   "inLanguage": {{ lang | jsonify }},
   "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
@@ -44,3 +74,4 @@ layout: default
   "author": { "@type": "Person", "name": {{ site.author.name | jsonify }}, "url": {{ site.url | jsonify }} }
 }
 </script>
+{% endif %}

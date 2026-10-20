@@ -47,7 +47,7 @@ layout: default
 
       {% for post in posts_list %}
         <a class="entry" href="{{ post.url | relative_url }}" data-category="{{ post.category }}" data-brand="{{ post.brand }}">
-          {% if post.image %}<img class="entry__thumb" src="{{ post.image }}" alt="">{% endif %}
+          {% if post.image %}<img class="entry__thumb" src="{{ post.image | replace: 'width=1920', 'width=640' }}" alt="" width="140" height="100" decoding="async"{% if forloop.index > 3 %} loading="lazy"{% endif %}>{% endif %}
           <div class="entry__body">
             <div class="entry__meta">
               <span class="entry__date">{{ post.date | date: t.date_format }}</span>

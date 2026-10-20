@@ -15,6 +15,7 @@ strings:
     filter_brand_label: "Hersteller"
     filter_reset: "Zurücksetzen"
     filter_no_results: "Keine Berichte für diese Auswahl."
+    related_heading: "Weitere Berichte"
   en:
     nav_reviews: "Reviews"
     skip_link: "Skip to content"
@@ -27,3 +28,4 @@ strings:
     filter_brand_label: "Brand"
     filter_reset: "Reset"
     filter_no_results: "No reviews match this selection."
+    related_heading: "More reviews"
